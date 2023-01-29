@@ -1,0 +1,304 @@
+// 1380px
+@include xxxlg-xxxxlg {
+    @include intro-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+    h1 {
+        font-size: 76px;
+        line-height: 86px;
+    }
+    
+    h2 {
+        font-size: 42px;
+        line-height: 70px;
+    }
+    
+    h3 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    
+    h4 {
+        font-size: 28px;
+        line-height: 46px;
+    }
+    
+    h5 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    
+    h6 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    p {
+        &.big {
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+    .button {
+        &.rounded {
+            padding: 20px 66px;
+        }
+    }
+    // @include intro-xlg-xxlg-extra;
+
+}
+// 1180px
+@include xlg-xxlg {
+    .auto__container {
+        padding: 0 30px;
+    }
+    h1 {
+        font-size: 67px;
+        line-height: 80px;
+    }
+    
+    h2 {
+        font-size: 38px;
+        line-height: 52px;
+    }
+    @include intro-xlg-xxlg;
+    @include sponsors-xlg-xxlg;
+
+
+}
+// 1024px
+@include lg-xlg {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    h1 {
+        font-size: 60px;
+        line-height: 74px;
+    }
+    
+    h2 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+    
+    h3 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    
+    h4 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    h5 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    
+    h6 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    p {
+        &.big {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    .button {
+        padding: 12px 18px;
+        &.rounded {
+            padding: 13px 50px;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    @include nav-lg-xlg;
+    @include header-lg-xlg;
+    @include intro-lg-xlg;
+
+
+}
+// 930px
+@include md-lg {
+    
+    h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    
+    h3 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    
+    h4 {
+        font-size: 22px;
+        line-height: 37px;
+    }
+    
+    h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h6 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        &.big {
+            font-size: 17px;
+            line-height: 22px;
+        }
+    }
+    @include hero-md-lg;
+    @include intro-md-lg;
+    @include sponsors-md-lg;
+    @include product-md-lg;
+    @include footer-md-lg;
+    @include club-md-lg;
+
+}
+// 750px
+@include sm-md {
+    .auto__container {
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 59px;
+    }
+    
+    h2 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    
+    h3 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    
+    h4 {
+        font-size: 20px;
+        line-height:26px;
+    }
+    
+    h5 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    p {
+        &.big {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+    @include hero-sm-md;
+    @include footer-sm-md;
+    @include product-sm-md;
+    @include club-sm-md;
+
+
+}
+// 650px
+@include sm-md-extra {
+    .button {
+        padding: 8px 14px;
+        font-size: 14px;
+        line-height: 17px;
+        border-radius: 7px;
+        span {
+            margin-left: 6px;
+            width: 9px;
+            height: 10px;
+        }
+        &.rounded {
+            font-size: 17px;
+            line-height: 23px;
+            padding: 10px 40px 12px;
+            span {
+                margin-left: 10px;
+            }
+        }
+    }
+    h1 {
+        font-size: 42px;
+        line-height: 49px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    p {
+        &.big {
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+    @include nav-sm-md-extra;
+    @include header-sm-md-extra;
+    @include intro-sm-md-extra;
+    @include footer-sm-md-extra;
+
+    @include product-sm-md-extra;
+    @include club-sm-md-extra;
+}
+// 540px
+@include xsm-sm  {
+    .auto__container {
+        padding: 0 15px;
+    }
+    .button {
+        font-size: 12px;
+        line-height: 16px;
+        &.rounded {
+            padding: 8px 30px 10px;
+            box-shadow: 0px 5px 20px 0px $main;
+        }
+    }
+    @include hero-xsm-sm;
+    @include intro-xsm-sm;
+    @include sponsors-xsm-sm;
+    @include footer-xsm-sm;
+
+
+    @include product-xsm-sm;
+    @include club-xsm-sm;
+
+}
+// 440px
+@include xxsm-xsm  {
+    h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    @include nav-xxsm-xsm;
+    @include header-xxsm-xsm;
+    @include sponsors-xxsm-xsm;
+    @include footer-xxsm-xsm;
+
+
+    @include club-xxsm-xsm;
+
+}
+// 390px
+@include xxxsm-xxsm  {
+    // @include intro-xxxsm-xxsm;
+}
+
